@@ -10,3 +10,7 @@ Financial Kenetics Uncorporated* Pay Me
 
 ## Our Social
 - https://twitter.com/fkpay
+
+## Announcement
+
+this site was launched on 10/10/2020 - more updates coming soon, such as content and functional website
