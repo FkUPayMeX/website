@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 0px;
   background: #0880e8;
   color: #fff;
   transition: all 0.4s;
@@ -178,8 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.1);
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
-  top: 60px;
+  padding: 10px 0;
 }
 
 #header.header-scrolled {
@@ -188,13 +187,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 #header .logo a {
@@ -466,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   overflow: hidden;
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
@@ -500,8 +498,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 400;
 }
 
 #hero p {
@@ -531,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 0px;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -705,7 +703,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 5px;
+  border-radius: 0px;
   transition: 0.3s;
   line-height: 1;
   color: #0880e8;
@@ -1622,7 +1620,7 @@ section {
 .breadcrumbs {
   padding: 15px 0;
   background: #ecf6fe;
-  margin-top: 130px;
+  margin-top: 60px;
 }
 
 @media (max-width: 992px) {
@@ -2219,7 +2217,7 @@ section {
 
 .blog .sidebar .recent-posts h4 {
   font-size: 15px;
-  margin-left: 95px;
+  margin-left: 15px;
   font-weight: bold;
 }
 
